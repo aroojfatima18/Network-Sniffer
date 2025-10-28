@@ -1,34 +1,39 @@
 # 🕵️‍♂️ Network Sniffer
 
-## 📘 Overview
-The **Network Sniffer** project is a Python-based tool used to monitor and analyze network packets traveling across your network interface.  
-It helps detect, log, and display packet information in real-time, making it useful for network administrators, cybersecurity analysts, and students learning about packet structures.
+## 🧩 Overview  
+The **Network Sniffer** is a Python-based tool that captures and analyzes network packets traveling across a network interface.  
+It helps users monitor network activity, identify protocols, and view real-time communication details.  
+This project was created as part of the **CodeAlpha Internship Program**.
 
 ---
 
-## 🧠 Objective
-To build a lightweight network packet sniffer that captures live traffic data, identifies protocols, and provides insights into network activity.
-
----
-
-## ⚙️ Features
+## 🚀 Features  
 - Captures live network packets  
 - Displays source and destination IP addresses  
-- Identifies protocols (TCP, UDP, ICMP, etc.)  
-- Shows ports and payload information  
-- Saves captured data for later analysis  
+- Identifies network protocols (TCP, UDP, ICMP, etc.)  
+- Shows port numbers and packet payloads  
+- Logs captured data for later analysis  
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Technologies Used  
 - **Python 3**  
-- **Scapy** library for packet sniffing and analysis  
+- **Scapy** library (for packet capture and decoding)  
 
 ---
 
-## 📦 Installation
+## ⚙️ Installation  
+If you want to run this project locally, follow these steps 👇  
 
-1. Make sure you have **Python 3** installed.  
-2. Install the required library:
-   ```bash
-   pip install scapy
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/Network-Sniffer.git
+
+# Navigate into the project folder
+cd Network-Sniffer
+
+# Install required library
+pip install scapy
+
+# Run the program
+python network_sniffer.py
